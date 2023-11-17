@@ -8,4 +8,5 @@
 	if(isset($_SESSION['my_name']) && isset($_SESSION['my_pass'])){
 		$p->confirmLogin($_SESSION['my_name'],$_SESSION['my_pass']) ;
 	}
+	// $a
 ?>
